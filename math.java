@@ -4,12 +4,12 @@ public class Calculator {
         int num1 = 10;
         int num2 = 5;
 
-        int sum = num1 + num2;
-        int difference = num1 - num2;
+        int mul = num1 * num2;
+        int div = num1 / num2;
 
         System.out.println("The first number is: " + num1);
         System.out.println("The second number is: " + num2);
-        System.out.println("The sum is: " + sum);
-        System.out.println("The difference is: " + difference);
+        System.out.println("The sum is: " + mul);
+        System.out.println("The difference is: " + div);
     }
 }
